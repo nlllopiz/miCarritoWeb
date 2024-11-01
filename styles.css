@@ -203,8 +203,8 @@ iframe {
 }
 
 @media (width < 860px) {
-    .reseñas {
-        grid-template-columns: minmax(200px, 1fr);
+    html {
+        font-size: 12px;
     }
     
     section {
@@ -214,6 +214,10 @@ iframe {
     form textarea, input {
         display: block;
         width: 90%;
+    }
+
+    .reseñas {
+        grid-template-columns: minmax(200px, 1fr);
     }
 }
 
