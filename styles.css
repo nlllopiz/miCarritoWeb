@@ -4,14 +4,12 @@ html {
     color: white;
     scroll-behavior: smooth;
     box-sizing: border-box;
-}
-
-body {
-    margin: 0 15%;    
+    margin: 0 15%;
 }
 
 h1, h2, h3 {
     text-shadow: 5px 5px 5px black;
+    
 }
 
 section {
@@ -49,7 +47,7 @@ header ul {
 
 header li {
     list-style: none;
-    display: inline;
+    display: inline-block;
 }
 
 header nav a {
@@ -198,17 +196,21 @@ iframe {
     }
     .reseñas {
         grid-template-columns: repeat(2, minmax(225px, 1fr));
-    }
-    
+    }    
 }
 
 @media (width < 860px) {
     html {
         font-size: 12px;
+        margin: 0 5%;
     }
     
     section {
         padding: 1.2rem;
+    }
+
+    section h2, h3 {
+        font-size: 13px;
     }
 
     form textarea, input {
@@ -218,6 +220,15 @@ iframe {
 
     .reseñas {
         grid-template-columns: minmax(200px, 1fr);
+    }
+
+    .curso img {
+        margin-bottom: 1rem;
+    }
+
+    #pagos .contenido {
+        padding: 1rem;
+        font-size: smaller;
     }
 }
 
