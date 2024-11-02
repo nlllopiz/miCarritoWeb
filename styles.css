@@ -190,7 +190,7 @@ iframe {
     text-align: right;
 }
 
-@media (width < 1205px) {
+@media (max-width: 900px) {
     section {
         padding: .3rem;
     }
@@ -199,7 +199,7 @@ iframe {
     }    
 }
 
-@media (width < 860px) {
+@media (max-width: 600px) {
     html {
         font-size: 12px;
         margin: 0 5%;
